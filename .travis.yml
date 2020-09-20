@@ -1,0 +1,9 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t thedefede/docker-react -f Dockefile.dev .
+
+script:
+    - docker run thedefede/docker-react npm run test -- --coverage
