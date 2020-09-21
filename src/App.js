@@ -9,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hi there my friend how are you?
+          Now there is a change in the feature
 
         </p>
         <a
